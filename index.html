@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Noto+Nastaliq+Urdu:wght@400..700&family=Aref+Ruqaa:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div
+            id="home"
+            class="landing overflow-hidden d-flex justify-content-center align-items-center position-relative"
+        >
+            <div class="img-container w-100 h-100">
+                <img
+                    src="images/pexels-pixabay-159775.jpg"
+                    alt=""
+                    class="w-100 h-100 object-fit-cover"
+                />
+            </div>
+            <div
+                class="text position-absolute text-shadow translate-middle-y text-white fw-bolder display-1 kufam top-50"
+            >
+                أهميةُ المُذاكَرَة
+            </div>
+        </div>
+
+        <section
+            id="details"
+            class="details d-flex justify-content-center align-items-center"
+        >
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="left-side col-6 h-100">
+                        <img
+                            src="images/pexels-cottonbro-4778611.jpg"
+                            alt=""
+                            class="w-100 h-100 rounded"
+                        />
+                    </div>
+                    <div class="right-side col-6">
+                        <h3 class="mt-5 kufam text-center lh-lg mb-2">
+                            نصائح هامة
+                        </h3>
+                        <div
+                            id="accordion"
+                            class="border mb-5 text-center mx-auto rounded overflow-hidden"
+                        >
+                            <h3
+                                class="bg-primary border-bottom kufam p-2 text-white"
+                            >
+                                النصيحة الاولي
+                            </h3>
+                            <div class="p-3 pb-0">
+                                <p
+                                    class="text-end fs-4 fw-bold aref lh-lg"
+                                    dir="rtl"
+                                >
+                                    تنظيم الوقت ووضع جدول زمني:
+                                    <br />
+                                    ضع جدولًا زمنيًا للدراسة يتضمن فترات راحة
+                                    منتظمة. يساعدك هذا على التركيز وتجنب
+                                    الإرهاق، كما يعزز الاستيعاب والاحتفاظ
+                                    بالمعلومات على المدى الطويل
+                                </p>
+                            </div>
+                            <h3
+                                class="bg-primary border-bottom kufam p-2 text-white"
+                            >
+                                النصيحة الثانية
+                            </h3>
+                            <div class="p-3 pb-0">
+                                <p
+                                    class="text-end fs-4 fw-bold aref lh-lg"
+                                    dir="rtl"
+                                >
+                                    اختيار مكان مناسب للدراسة:
+                                    <br />
+                                    اختر مكانًا هادئًا وخاليًا من المشتتات، حيث
+                                    يمكنك التركيز. تأكد من أن المكان مجهز
+                                    بالإضاءة الجيدة والتهوية المناسبة ليكون بيئة
+                                    مريحة للدراسة.
+                                </p>
+                            </div>
+                            <h3
+                                class="bg-primary border-bottom kufam p-2 text-white"
+                            >
+                                النصيحة الثالثة
+                            </h3>
+                            <div class="p-3 pb-0">
+                                <p
+                                    class="text-end fs-4 fw-bold aref lh-lg"
+                                    dir="rtl"
+                                >
+                                    التفاعل مع المواد الدراسية:
+                                </p>
+                                <ul class="text-end aref" dir="rtl">
+                                    <li class="fw-bold fs-5">
+                                        اقرأ النصوص بصوت عالٍ، وناقشها مع زملائك
+                                        أو أصدقائك لتثبيت المعلومات.
+                                    </li>
+                                    <li class="fw-bold fs-5">
+                                        استخدم الألوان والرسومات لتوضيح النقاط
+                                        المهمة، مما يجعل المذاكرة أكثر فعالية.
+                                    </li>
+                                    <li class="fw-bold fs-5">
+                                        اطرح الأسئلة حول المواد التي تدرسها
+                                        وابحث عن إجاباتها، مما يعزز فهمك ويساعدك
+                                        على استيعاب المعلومات بشكل أعمق.
+                                    </li>
+                                </ul>
+                            </div>
+                            <h3
+                                class="bg-primary border-bottom kufam mb-0 p-2 text-white"
+                            >
+                                النصيحة الرابعة
+                            </h3>
+                            <div class="p-3">
+                                <p
+                                    class="text-end fs-4 fw-bold aref lh-lg"
+                                    dir="rtl"
+                                >
+                                    المراجعة المنتظمة وتجنب التأجيل: قم بمراجعة
+                                    المواد الدراسية بانتظام بدلاً من الانتظار
+                                    حتى اللحظة الأخيرة قبل الامتحانات. تقسيم
+                                    المهام الكبيرة إلى أجزاء أصغر وتحديد مواعيد
+                                    نهائية لكل جزء يساعد على تجنب التراكم
+                                    والإجهاد. استخدم تقنيات مثل الخرائط الذهنية
+                                    لتلخيص المعلومات والتكرار المتباعد لتعزيز
+                                    الذاكرة طويلة الأمد. هذا النهج يضمن
+                                    استيعابًا أفضل للمعلومات ويحسن الأداء
+                                    الأكاديمي بشكل عام.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="countDown" class="py-5">
+            <h2
+                class="text-center display-3 text-white position-relative fw-bolder text-shadow kufam"
+            >
+                عد تنازلى للامتحان القادم
+            </h2>
+            <div class="container text-center py-5 position-relative">
+                <div class="row text-white fs-1 p-5">
+                    <div class="col-3">
+                        <span
+                            class="d-block m-3 p-5 border shadow-lg rounded-5 aref seconds"
+                        ></span>
+                    </div>
+                    <div class="col-3">
+                        <span
+                            class="d-block m-3 p-5 border shadow-lg rounded-5 aref minutes"
+                        ></span>
+                    </div>
+                    <div class="col-3">
+                        <span
+                            class="d-block m-3 p-5 border shadow-lg rounded-5 aref hours"
+                        ></span>
+                    </div>
+                    <div class="col-3">
+                        <span
+                            class="d-block m-3 p-5 border shadow-lg rounded-5 aref days"
+                        ></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container py-5" dir="rtl">
+                <h2 class="fw-bold">انضم إلينا</h2>
+                <p class="text-center lead text-black-50 mt-3">
+                    انضم إلينا الآن وكن جزءًا من فريقنا الرائع! اكتشف كيف يمكننا
+                    أن نعمل معًا لتحقيق أهدافك وتطوير مهاراتك في بيئة ممتعة
+                    ومحفزة.
+                </p>
+                <div class="row">
+                    <div
+                        class="col-md-6 col-12 text-end justify-content-around align-items-start align-content-around d-flex flex-column p-5 mt-5"
+                    >
+                        <h4 class="mt-2">معلومات التواصل</h4>
+                        <h4>
+                            شارع عباس العقاد , 22545، طريق النزهة، القاهرة، مصر
+                        </h4>
+                        <a class="d-block nav-link fs-2" href="#">
+                            <i class="fa-regular fa-envelope"></i>
+                            hello@uigrid.com
+                        </a>
+                        <a
+                            class="d-block nav-link fs-2"
+                            href="tel: 001-000-000-000"
+                        >
+                            001-000-000-000
+                        </a>
+                        <ul
+                            class="list-unstyled ms-auto d-flex justify-content-around pe-0"
+                        >
+                            <li>
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-danger mx-2 fs-4"
+                                >
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-danger mx-2 fs-4"
+                                >
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-danger mx-2 fs-4"
+                                >
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-danger mx-2 fs-4"
+                                >
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-danger mx-2 fs-4"
+                                >
+                                    <i class="fa-regular fa-circle-user"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-danger mx-2 fs-4"
+                                >
+                                    <i class="fa-solid fa-volleyball"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-12" dir="rtl">
+                        <label
+                            for="name"
+                            dir="rtl"
+                            class="kufam fs-4 lh-lg me-1"
+                            >الاسم</label
+                        >
+                        <input
+                            type="text"
+                            id="name"
+                            class="form-control kufam"
+                        />
+                        <label for="age" dir="rtl" class="kufam fs-4 lh-lg me-1"
+                            >السن</label
+                        >
+                        <input
+                            type="text"
+                            id="age"
+                            class="form-control kufam"
+                        />
+                        <label for="msg" dir="rtl" class="kufam fs-4 lh-lg me-1"
+                            >رسالة</label
+                        >
+                        <textarea
+                            name="msg"
+                            id="msg"
+                            class="d-block form-control kufam"
+                            rows="5"
+                        >
+                        </textarea>
+                        <button
+                            class="btn btn-outline-success mt-5 py-2 fs-4 mx-auto d-block w-100"
+                        >
+                            إرسال
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sidebar left">
+            <ul class="list-unstyled pt-5 mt-5">
+                <li class="mt-5">
+                    <a href="#home" class="text-decoration-none text-white">
+                        Home
+                    </a>
+                </li>
+                <li class="mt-5">
+                    <a href="#details" class="text-decoration-none text-white">
+                        Details
+                    </a>
+                </li>
+                <li class="mt-5">
+                    <a
+                        href="#countDown"
+                        class="text-decoration-none text-white"
+                    >
+                        Duration
+                    </a>
+                </li>
+
+                <li class="mt-5">
+                    <a href="#contact" class="text-decoration-none text-white">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+            <span
+                id="toggleBtn"
+                class="d-block text-shadow position-absolute fs-1 fw-bold"
+            >
+                <i class="fa-solid fa-bars"></i>
+                Menu
+            </span>
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <script src="node_modules/jquery-ui/dist/jquery-ui.min.js"></script>
+        <script src="node_modules/jquery-sidebar/src/jquery.sidebar.min.js"></script>
+        <script src="node_modules/jquery-text-counter/textcounter.min.js"></script>
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

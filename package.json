@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "jquery-countdown": "^2.2.0",
+    "jquery-sidebar": "^3.3.2",
+    "jquery-text-counter": "^0.9.0",
+    "jquery-ui": "^1.13.3"
+  }
+}

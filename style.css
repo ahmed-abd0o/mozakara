@@ -1,0 +1,96 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* Settings General Settings */
+.kufam {
+    font-family: "Kufam", sans-serif;
+}
+.noto {
+    font-family: "Noto Nastaliq Urdu", serif;
+}
+.aref {
+    font-family: "Aref Ruqaa", serif;
+}
+
+.text-shadow {
+    text-shadow: -5px 5px 0px rgba(0, 0, 0, 0.55);
+}
+/* End General Settings */
+
+/* Start Landing Page */
+.landing {
+    height: 70vh;
+}
+
+.landing img {
+    filter: blur(3px);
+}
+/* End Landing Page */
+
+/* Start Details */
+.details {
+    min-height: 650px;
+}
+
+#accordion h3 {
+    cursor: pointer;
+}
+/* End Details */
+
+/* Start CountDown */
+#countDown {
+    /* background-image: url(images/pexels-jeswin-3380743.jpg); */
+    position: relative;
+    background-position: center 70%;
+    background-size: cover;
+}
+#countDown::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/pexels-jeswin-3380743.jpg);
+    background-position: center 70%;
+    background-size: cover;
+    filter: blur(3px) grayscale(50%);
+}
+/* End CountDown */
+
+/* Start Sidebar Settings */
+#toggleBtn {
+    cursor: pointer;
+    user-select: none;
+}
+.sidebar a {
+    transition: 0.6s;
+}
+.sidebar a:hover {
+    color: red !important;
+}
+.sidebar.left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 270px;
+    background: rgb(68, 68, 68);
+    color: white;
+    padding: 30px;
+    box-shadow: 0 0 5px black;
+    font-size: 31px;
+    text-align: center;
+}
+
+.sidebar.left span {
+    transform: translateX(300px);
+    top: 35vh;
+}
+/* End Sidebar Settings */
+
+/* Start Contact */
+#contact ul li a {
+    width: 60px;
+}
+/* End Contact */
